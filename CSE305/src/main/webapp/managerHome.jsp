@@ -14,9 +14,16 @@
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 		<title>Manager Home</title>
 	</head>
-	<body>
+	<body class="container">
+	<br>
+	<br>
+	<br>
 	
 		<h1>Welcome to the Online Travel Reservation System!</h1>
+		
+		<br>
+		<br>
+		<br>
 		<div class="container">
 			<h2>Manager Options:</h2>
 			<%
@@ -107,6 +114,9 @@
 					  </div>
 					</div>
 				</div>
+				<br>
+				<br>
+				<br>
 				<div class="col">
 					<div class="card">
 					  <div class="card-body">

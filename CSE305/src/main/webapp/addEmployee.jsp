@@ -21,8 +21,8 @@
 	<script src="webjars/jquery/3.3.1-1/jquery.min.js"></script>
 	<script src="webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-<body>
-	<div class="container">
+<body class="container">
+	<div>
 	
 	<h1>Add a new Employee:</h1>
  
@@ -73,7 +73,7 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="isManager">IsManager</label>
-	    <input type="checkbox" class="form-control" id="isManager" name="isManager" placeholder="Manager or Customer Rep">
+	    <input type="checkbox" id="isManager" name="isManager" placeholder="Manager or Customer Rep">
 	  </div>
 	  <button type="submit" class="btn btn-primary">Submit</button>
 	</form>
