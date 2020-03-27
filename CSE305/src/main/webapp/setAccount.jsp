@@ -18,11 +18,11 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body class="container"><br>
 	
-		<h1>Set Account</h1>
+		<h1>Set Account</h1><br>
 		<div class="container">
-			<h2>Account Options:</h2>
+			<h2>Account Options:</h2><br>
 			<div class="row">					
 					<div class="col">
 						<div class="card">
@@ -35,7 +35,7 @@
 											<option value="Unlimited-1">Unlimited-1</option>
 											<option value="Unlimited-2">Unlimited-2</option>
 											<option value="Unlimited-3">Unlimited-3</option>		
-								    </select>
+								    </select><br>
 									<input type="submit" value="Set" class="btn btn-primary"/>
 								</form>
 							</div>

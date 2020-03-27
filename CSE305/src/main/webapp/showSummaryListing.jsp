@@ -22,7 +22,7 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Summary Listing</title>
 </head>
-<body>
+<body class="container"><br>
 
 	<h1>The Summary Listing of revenue generated is:</h1>
 	<h4>(Based on the search criteria)</h4>

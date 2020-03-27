@@ -16,7 +16,7 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Passenger List for Flights</title>
 </head>
-<body>
+<body class="container">
 
 	<h1>Passenger List for the flight is:</h1>
 	<div class="container">

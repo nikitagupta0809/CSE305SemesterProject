@@ -22,7 +22,7 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Highest Revenue Employee Details</title>
 </head>
-<body>
+<body class="container">
 
 	
 	<div class="container">

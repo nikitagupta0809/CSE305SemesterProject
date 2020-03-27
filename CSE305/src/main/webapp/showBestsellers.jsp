@@ -16,8 +16,8 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Best Sellers</title>
 </head>
-<body>
-
+<body class="container">
+<br>
 	<h1>Best Sellers are:</h1>
 	<div class="container">
 	<c:if test="${empty items}">

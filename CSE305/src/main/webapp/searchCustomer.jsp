@@ -21,12 +21,14 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
-		<div class="container">
-			<h2>Search Customer</h2>
+	<body class="container">
+		<div class="container"><br>
+			<h2>Search Customer</h2><br>
+			<br>
+			<br>
 			<form action="getCustomers">
-				<input type="text" name="searchKeyword" class="form-control" />
-				<input type="submit" value="Search" class="btn btn-success"/>
+				<input type="text" name="searchKeyword" class="form-control" /><br>
+				<input type="submit" value="Search" class="btn btn-success"/><br>
 			</form>
 		</div>
 		<div class="container pt-1">

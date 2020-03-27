@@ -22,7 +22,7 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Flight Details</title>
 </head>
-<body>
+<body class="container"><br>
 
 	<h1>The Flights are:</h1>
 	<div class="container">
