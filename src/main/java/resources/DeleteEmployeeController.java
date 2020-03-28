@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.EmployeeDao;
-import model.Employee;
 
 /**
  * Servlet implementation class DeleteEmployeeController

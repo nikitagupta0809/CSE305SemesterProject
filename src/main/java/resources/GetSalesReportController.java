@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.SalesReportDao;
-import model.Flight;
 import model.SalesReport;
 
 /**
@@ -35,20 +34,6 @@ public class GetSalesReportController extends HttpServlet {
 		// TODO Auto-generated method stub
 		String year = request.getParameter("year");
 		String month = request.getParameter("month");
-//		String dateOpened = month + "-" + year;
-//		
-//		Account account = new Account();
-//		account.setAcctCreateDate(dateOpened);
-//		
-//		AccountDao accountDao = new AccountDao();
-//		int income = accountDao.getSalesReport(account);
-//		
-//		request.setAttribute("income", income);
-//		request.setAttribute("year", year);
-//		request.setAttribute("month", month);
-//		System.out.println(month + year);
-//		RequestDispatcher rd = request.getRequestDispatcher("showSalesReport.jsp");
-//		rd.forward(request, response);
 
 		SalesReportDao salesReportDao = new SalesReportDao();
 		List<SalesReport> sales = new ArrayList<SalesReport>(); 

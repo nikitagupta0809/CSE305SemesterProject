@@ -13,7 +13,6 @@ import java.util.List;
 
 import dao.AuctionsDao;
 import model.Auctions;
-import model.Itinerary;
 /**
  * Servlet implementation class GetReverseAuctionsController
  */

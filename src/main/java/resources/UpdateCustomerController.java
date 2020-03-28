@@ -7,9 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.CustomerDao;
-import dao.LoginDao;
 import model.Customer;
-import model.Login;
 
 /**
  * Servlet implementation class UpdateCustomerController

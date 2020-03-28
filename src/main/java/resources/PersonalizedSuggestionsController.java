@@ -11,10 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.FlightDao;
-import dao.FlightReservationsDao;
-import dao.MovieDao;
 import model.Flight;
-import model.Movie;
 
 /**
  * Servlet implementation class PersonalizedSuggestionsController
