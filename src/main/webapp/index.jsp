@@ -13,11 +13,11 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
-		<title>Login | Online Auction House</title>
+		<title>Login | Online Travel Reservation System</title>
 	</head>
 	<body>
 	
-		<h1>Welcome to the Online Movie Rental System</h1>
+		<h1>Welcome to Online Travel Reservation System</h1>
 		<div class="container">
 			<h2>Login</h2>
 			<%
