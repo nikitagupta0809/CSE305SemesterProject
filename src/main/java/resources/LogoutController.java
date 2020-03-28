@@ -31,6 +31,12 @@ public class LogoutController extends HttpServlet {
 		 */
 
 		request.getSession(true).removeAttribute("email");
+		if(request.getSession(false).getAttribute("employeeID") != null) {
+			request.getSession(true).removeAttribute("employeeID");
+		}
+		if(request.getSession(false).getAttribute("customerID") != null) {
+			request.getSession(true).removeAttribute("customerID");
+		}
 		response.sendRedirect("index.jsp");
 	}
 

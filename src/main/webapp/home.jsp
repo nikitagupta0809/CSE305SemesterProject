@@ -117,7 +117,7 @@
 				<div class="col">
 					<div class="card">
 					  <div class="card-body">
-					    <h5 class="card-title">View Best Seller Movies</h5>
+					    <h5 class="card-title">View Best Seller Flights</h5>
     					<div class="container">
 							<form action="getBestsellersForCustomer">
 								<input type="submit" value="View Best Sellers" class="btn btn-success"/>
