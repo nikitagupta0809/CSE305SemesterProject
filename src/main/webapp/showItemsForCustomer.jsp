@@ -22,7 +22,7 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Customer-Item Details</title>
 </head>
-<body>
+<body class="container"><br>
 
 	<h1>The Customer-wise Item Details are:</h1>
 	<div class="container">

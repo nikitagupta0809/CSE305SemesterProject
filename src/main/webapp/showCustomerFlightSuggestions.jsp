@@ -16,9 +16,9 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Flight Suggestions</title>
 </head>
-<body>
+<body class="container"><br>
 
-	<h1>Flight Suggestions are:</h1>
+	<h1>Flight Suggestions are:</h1><br>
 	<div class="container">
 	<c:if test="${empty items}">
 		<h3>Items not found!</h3> 

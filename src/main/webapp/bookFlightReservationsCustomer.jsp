@@ -33,28 +33,34 @@
     					<div class="container">
 						<form method="POST" action="bookFlightReservationsCustomer">
 								<label for="airlineID">Airline ID:</label>
-	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID, example AA">
+	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID, example AA"><br>
 	    						<label for="departureAirport">Departure Airport</label>
-	    						<input type="text" class="form-control" id="departureAirport" name="departureAirport" placeholder="Type Departure Airport, example JFK">
+	    						<input type="text" class="form-control" id="departureAirport" name="departureAirport" placeholder="Type Departure Airport, example JFK"><br>
 	    		    			<label for="arrivalAirport">Arrival Airport</label>
-	    						<input type="text" class="form-control" id="arrivalAirport" name="arrivalAirport" placeholder="Type Arrival Airport, example SFO">
+	    						<input type="text" class="form-control" id="arrivalAirport" name="arrivalAirport" placeholder="Type Arrival Airport, example SFO"><br>
 	    		    			<label for="departureDate">Departing On</label>
-	    						<input type="text" class="form-control" id="departureDate" name="departureDate" placeholder="Type Departure Date MM/DD/YYYY">
+	    						<input type="text" class="form-control" id="departureDate" name="departureDate" placeholder="Type Departure Date MM/DD/YYYY"><br>
 		    		    		<label for="returnDate">Returning On</label>
-	    						<input type="text" class="form-control" id="returnDate" name="returnDate" placeholder="Type Returning Date MM/DD/YYYY">
+	    						<input type="text" class="form-control" id="returnDate" name="returnDate" placeholder="Type Returning Date MM/DD/YYYY"><br>
 		    		    		<label for="seatNum">Seat Number</label>
-	    						<input type="text" class="form-control" id="seatNum" name="seatNum" placeholder="Type Seat Number, example 10B">
+	    						<input type="text" class="form-control" id="seatNum" name="seatNum" placeholder="Type Seat Number, example 10B"><br>
 		    		    		<label for="seatClass">Class</label>
-	    						<input type="text" class="form-control" id="seatClass" name="seatClass" placeholder="Type Seat Class, example First">
+	    						<input type="text" class="form-control" id="seatClass" name="seatClass" placeholder="Type Seat Class, example First"><br>
 		    		    		<label for="mealPref">Meal</label>
-	    						<input type="text" class="form-control" id="mealPref" name="mealPref" placeholder="Type Meal Preference, example Steak">
+	    						<input type="text" class="form-control" id="mealPref" name="mealPref" placeholder="Type Meal Preference, example Steak"><br>
 			    		    	<label for="passEmail">Passenger Email</label>
-	    						<input type="text" class="form-control" id="passEmail" name="passEmail" placeholder="Type Passenger Email">
+	    						<input type="text" class="form-control" id="passEmail" name="passEmail" placeholder="Type Passenger Email"><br>
 			    		    	<label for="flexibleDate">Flexible Date/Time</label>
-	    						<input type="checkbox" class="form-control" id="flexibleDate" name="flexibleDate"><br>
+	    						<input type="checkbox" id="flexibleDate" name="flexibleDate"><br>
 	 	    					<label for="typeOfTrip">Type of Trip</label> <br>
-	    						One-way<input type="radio" class="form-control" value="oneway" id="typeOfTrip" name="typeOfTrip" checked><br>
-	 	    					Round-trip<input type="radio" class="form-control" value="roundtrip" id="typeOfTrip" name="typeOfTrip">
+	    						<div class="container">
+	    							<ul>
+	    								<li>One-way   <input type="radio" value="oneway" id="typeOfTrip" name="typeOfTrip" checked><br></li>
+	    								<li>Round-trip   <input type="radio" value="roundtrip" id="typeOfTrip" name="typeOfTrip">
+	    								</li>
+	    							</ul>
+	    						</div>
+	    						
 	        	     		     	     										
 	    						<br>
 								<input type="submit" value="Book" class="btn btn-primary"/>
@@ -70,29 +76,29 @@
     					<div class="container">
 							<form method="POST" action="bookFlightReservationsMultiCityCustomer">
 								<label for="airlineID">Airline ID:</label>
-	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID, example AA">
+	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID, example AA"><br>
 	    						<label for="departureAirport1">Departure Airport 1</label>
-	    						<input type="text" class="form-control" id="departureAirport1" name="departureAirport1" placeholder="Type Departure Airport 1, example JFK">
+	    						<input type="text" class="form-control" id="departureAirport1" name="departureAirport1" placeholder="Type Departure Airport 1, example JFK"><br>
 	    		    			<label for="arrivalAirport1">Arrival Airport 1</label>
-	    						<input type="text" class="form-control" id="arrivalAirport1" name="arrivalAirport1" placeholder="Type Arrival Airport 1, example SFO">
+	    						<input type="text" class="form-control" id="arrivalAirport1" name="arrivalAirport1" placeholder="Type Arrival Airport 1, example SFO"><br>
 	    		    			<label for="trip1Date">Trip 1 Date</label>
-	    						<input type="text" class="form-control" id="trip1Date" name="trip1Date" placeholder="Type Trip Date 1 MM/DD/YYYY">
+	    						<input type="text" class="form-control" id="trip1Date" name="trip1Date" placeholder="Type Trip Date 1 MM/DD/YYYY"><br>
 	    						<label for="departureAirport2">Departure Airport 2</label>
-	    						<input type="text" class="form-control" id="departureAirport2" name="departureAirport2" placeholder="Type Departure Airport 2, example JFK">
+	    						<input type="text" class="form-control" id="departureAirport2" name="departureAirport2" placeholder="Type Departure Airport 2, example JFK"><br>
 	    		    			<label for="arrivalAirport2">Arrival Airport 2</label>
-	    						<input type="text" class="form-control" id="arrivalAirport2" name="arrivalAirport2" placeholder="Type Arrival Airport 2, example SFO">
+	    						<input type="text" class="form-control" id="arrivalAirport2" name="arrivalAirport2" placeholder="Type Arrival Airport 2, example SFO"><br>
 	    		    			<label for="trip2Date">Trip 2 Date</label>
-	    						<input type="text" class="form-control" id="trip2Date" name="trip2Date" placeholder="Type Trip Date 2 MM/DD/YYYY">
+	    						<input type="text" class="form-control" id="trip2Date" name="trip2Date" placeholder="Type Trip Date 2 MM/DD/YYYY"><br>
 		    		    		<label for="seatNum">Seat Number</label>
-	    						<input type="text" class="form-control" id="seatNum" name="seatNum" placeholder="Type Seat Number, example 10B">
+	    						<input type="text" class="form-control" id="seatNum" name="seatNum" placeholder="Type Seat Number, example 10B"><br>
 		    		    		<label for="seatClass">Class</label>
-	    						<input type="text" class="form-control" id="seatClass" name="seatClass" placeholder="Type Seat Class, example First">
+	    						<input type="text" class="form-control" id="seatClass" name="seatClass" placeholder="Type Seat Class, example First"><br>
 		    		    		<label for="mealPref">Meal</label>
-	    						<input type="text" class="form-control" id="mealPref" name="mealPref" placeholder="Type Meal Preference, example Steak">
+	    						<input type="text" class="form-control" id="mealPref" name="mealPref" placeholder="Type Meal Preference, example Steak"><br>
 			    		    	<label for="passEmail">Passenger Email</label>
-	    						<input type="text" class="form-control" id="passEmail" name="passEmail" placeholder="Type Passenger Email">
+	    						<input type="text" class="form-control" id="passEmail" name="passEmail" placeholder="Type Passenger Email"><br>
 			    		    	<label for="flexibleDate">Flexible Date/Time</label>
-	    						<input type="checkbox" class="form-control" id="flexibleDate" name="flexibleDate"><br>
+	    						<input type="checkbox" id="flexibleDate" name="flexibleDate"><br>
 								<br>
 								<input type="submit" value="Book" class="btn btn-primary"/>
 							</form>

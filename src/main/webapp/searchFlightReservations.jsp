@@ -20,11 +20,11 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body class="container">
 	
-		<h1>Search Reservations:</h1>
+		<h1>Search Reservations:</h1><br>
 		<div class="container">
-			<h2>Search Options:</h2>
+			<h2>Search Options:</h2><br>
 			<div class="row">
 				<div class="col">
 					<div class="card">
@@ -33,8 +33,8 @@
     					<div class="container">
 							<form method="POST" action="searchFlightReservations">
 								<label for="flightNum">Flight Number:</label>
-	    						<input type="text" class="form-control" id="flightNum" name="flightNum" placeholder="Type Flight Number or a Part of it">
-								<input type="submit" value="Search" class="btn btn-primary"/>
+	    						<input type="text" class="form-control" id="flightNum" name="flightNum" placeholder="Type Flight Number or a Part of it"><br>
+								<input type="submit" value="Search" class="btn btn-primary"/><br>
 							</form>
 						</div>
 					  </div>
@@ -47,8 +47,8 @@
     					<div class="container">
 							<form method="POST" action="searchFlightReservations">
 								<label for="customerName">Customer Name:</label>
-	    						<input type="text" class="form-control" id="customerName" name="customerName" placeholder="Type Customer Name or a Part of it">
-								<input type="submit" value="Search" class="btn btn-primary"/>
+	    						<input type="text" class="form-control" id="customerName" name="customerName" placeholder="Type Customer Name or a Part of it"><br>
+								<input type="submit" value="Search" class="btn btn-primary"/><br>
 							</form>
 						</div>
 					  </div>

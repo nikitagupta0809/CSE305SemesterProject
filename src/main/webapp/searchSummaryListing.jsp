@@ -21,13 +21,13 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
-	<h2>Summary Listing</h2>
+	<body class="container"><br>
+	<h2>Summary Listing</h2><br>
 		<div class="container">
-			<h2>Search Movie Name, Movie Type or Customer Name:</h2>
+			<h2>Search Movie Name, Movie Type or Customer Name:</h2><br>
 			<form action="getSummaryListing">
-				<input type="text" name="searchKeyword" placeholder="Movie Name, Movie Type or Customer Name" class="form-control" />
-				<input type="submit" value="Search" class="btn btn-success"/>
+				<input type="text" name="searchKeyword" placeholder="Movie Name, Movie Type or Customer Name" class="form-control" /><br>
+				<input type="submit" value="Search" class="btn btn-success"/><br>
 			</form>
 		</div>
 		<div class="container pt-1">

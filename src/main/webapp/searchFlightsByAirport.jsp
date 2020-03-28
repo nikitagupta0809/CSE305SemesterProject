@@ -20,10 +20,10 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
-	
+	<body class="container">
+		<br>
 		<h1>Search Flights:</h1>
-		<div class="container">
+		<div class="container"><br>
 			<h2>Search Options:</h2>
 			<div class="row">
 				<div class="col">
@@ -33,8 +33,8 @@
     					<div class="container">
 							<form method="POST" action="searchFlightsByAirport">
 								<label for="airportName">Airport Name</label>
-	    						<input type="text" class="form-control" id="airportName" name="airportName" placeholder="Type Airport Name">
-								<input type="submit" value="Search" class="btn btn-primary"/>
+	    						<input type="text" class="form-control" id="airportName" name="airportName" placeholder="Type Airport Name"><br>
+								<input type="submit" value="Search" class="btn btn-primary"/><br>
 							</form>
 						</div>
 					  </div>

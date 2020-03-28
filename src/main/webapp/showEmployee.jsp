@@ -22,9 +22,9 @@
 	<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	<title>Employee Details</title>
 </head>
-<body>
+<body class="container"><br>
 
-	<h1>The Employee Details are:</h1>
+	<h1>The Employee Details are:</h1><br>
 	<div class="container">
 	<c:if test="${empty employees}">
 		<h3> Employee details not found! <h3/> 

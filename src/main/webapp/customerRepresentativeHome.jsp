@@ -14,7 +14,7 @@
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 		<title>Customer Representative Home</title>
 	</head>
-	<body>
+	<body class="container">
 	
 		<h1>Welcome to the Online Travel Reservation System!</h1>
 		<div class="container">

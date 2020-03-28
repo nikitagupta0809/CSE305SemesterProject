@@ -21,11 +21,11 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body class="container"><br>
 	<h2>Search Sales</h2>
-	
+	<br>
 				<div class="container">
-			<h2>Search Options:</h2>
+			<h2>Search Options:</h2><br>
 			<div class="row">
 				<c:if test="${empty items}">
 				</c:if>
@@ -59,7 +59,7 @@
     					<div class="container">
 							<form method="POST" action="searchItemsByName">
 								<label for="itemName">Item Name:</label>
-	    						<input type="text" class="form-control" id="itemName" name="itemName" placeholder="Type Item Name or a Part of it">
+	    						<input type="text" class="form-control" id="itemName" name="itemName" placeholder="Type Item Name or a Part of it"><br>
 								<input type="submit" value="Search" class="btn btn-primary"/>
 							</form>
 						</div>

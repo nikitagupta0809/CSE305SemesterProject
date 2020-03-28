@@ -23,7 +23,7 @@
 	<script src="webjars/jquery/3.3.1-1/jquery.min.js"></script>
 	<script src="webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="container">
 	<div class="container">
 	
 	<h1>Add a new Customer:</h1>

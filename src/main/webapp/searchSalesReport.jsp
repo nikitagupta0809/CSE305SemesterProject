@@ -20,10 +20,10 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
-		<h1>Sales Report</h1>
+	<body class="container"><br>
+		<h1>Sales Report</h1><br>
 		<div class="container">
-			<h2>Select Month and Year</h2>
+			<h2>Select Month and Year</h2><br>
 			<form action="getSalesReport">
 				<div class="form-group">
 				    <label for="month">Month</label>
@@ -46,9 +46,9 @@
 						<c:forEach var = "i" begin = "1900" end = "2020">
 							<option value="${i}"> <c:out value = "${i}"/></option>
 						</c:forEach>
-				    </select>
+				    </select><br>
 				</div>
-				<input type="submit" value="Search" class="btn btn-success"/>
+				<input type="submit" value="Search" class="btn btn-success"/><br>
 			</form>
 		</div>
 		<div class="container pt-1">

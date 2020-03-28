@@ -20,11 +20,16 @@
 		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body class="container">
 	
 		<h1>List Customers by Flight:</h1>
+		<br>
+		<br><br>
+		
 		<div class="container">
 			<h2>Search Options:</h2>
+			
+			<br>
 			<div class="row">
 				<div class="col">
 					<div class="card">
@@ -33,10 +38,10 @@
     					<div class="container">
 							<form method="POST" action="listCustomersByFlight">
 								<label for="flightNum">Flight Number:</label>
-	    						<input type="text" class="form-control" id="flightNum" name="flightNum" placeholder="Type Flight Number">
+	    						<input type="text" class="form-control" id="flightNum" name="flightNum" placeholder="Type Flight Number"><br>
 								<label for="airlineID">Airline ID:</label>
-	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID">							
-								<input type="submit" value="Search" class="btn btn-primary"/>
+	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID"><br><br>					
+								<input type="submit" value="Search" class="btn btn-primary"/><br><br>
 							</form>
 						</div>
 					  </div>
