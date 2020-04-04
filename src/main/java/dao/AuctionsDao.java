@@ -6,7 +6,7 @@ import model.Auctions;
 
 public class AuctionsDao {
 	
-	public List<Auctions> getLatestBid(int AccountNo, String AirlineID, String FlightNo, String SeatClass) {
+	public List<Auctions> getLatestBid(int AccountNo, String AirlineID, int FlightNo, String SeatClass) {
 
 		/*
 		 * This method fetches the latest auction details and returns it
@@ -30,7 +30,7 @@ public class AuctionsDao {
 		return auctions;
 	}
 	
-	public List<Auctions> getAllBids(int AccountNo, String AirlineID, String FlightNo, String SeatClass) {
+	public List<Auctions> getAllBids(int AccountNo, String AirlineID, int FlightNo, String SeatClass) {
 		
 		/*
 		 * The students code to fetch data from the database will be written here

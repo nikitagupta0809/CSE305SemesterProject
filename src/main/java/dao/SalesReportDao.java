@@ -25,7 +25,7 @@ public class SalesReportDao {
 			sale.setResrDate("2011-01-01");
 			sale.setTotalFare(100);
 			sale.setBookingFee(10.1);
-			sale.setRepSSN(1);
+			sale.setRepSSN("631891987");
 			sale.setFirstName("John");
 			sale.setLastName("LastName");
 				

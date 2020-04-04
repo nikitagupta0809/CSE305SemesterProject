@@ -41,7 +41,7 @@
 		  </thead>
 		  <tbody>
 		       <tr>
-		         <td>${customer.getCustomerID()}</td>
+		         <td>${customer.getAccountNo()}</td>
 		         <td>${customer.getFirstName()}</td>
 		         <td>${customer.getLastName()}</td>
 		       </tr>

@@ -8,6 +8,7 @@ public class Itinerary {
 	private String Arrival;
 	private String DepTime;
 	private String ArrTime;
+	
 	public int getResrNo() {
 		return ResrNo;
 	}

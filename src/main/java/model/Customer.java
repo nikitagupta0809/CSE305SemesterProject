@@ -7,24 +7,17 @@ public class Customer {
 	 * Each instance variable has a corresponding getter and setter
 	 */
 	
-	private String customerID;
-	private String accountNo; // new
+	private int accountNo;
 	private String firstName;
 	private String lastName;
 	private String Address;
 	private String City;
 	private String State;
 	private int zipCode;
-	private String telephone; // don't need
 	private String email;
 	private String creditCard;
 	private int rating;
-	public String getCustomerID() {
-		return customerID;
-	}
-	public void setCustomerID(String customerID) {
-		this.customerID = customerID;
-	}
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -61,12 +54,6 @@ public class Customer {
 	public void setZipCode(int zipCode) {
 		this.zipCode = zipCode;
 	}
-	public String getTelephone() {
-		return telephone;
-	}
-	public void setTelephone(String telephone) {
-		this.telephone = telephone;
-	}
 	public String getEmail() {
 		return email;
 	}
@@ -85,16 +72,10 @@ public class Customer {
 	public void setRating(int rating) {
 		this.rating = rating;
 	}	
-//	@Override
-//	public String toString() {
-//		return "The Customer Details are: <br/>Customer ID=" + customerID + "<br/>First Name=" + firstName + "<br/>Last Name=" + lastName
-//				+ "<br/>Address=" + Address + "<br/>City=" + City + "<br/>State=" + State + "<br/>Zip Code=" + zipCode
-//				+ "<br/>Telephone=" + telephone + "<br/>Email=" + email + "<br/>Credit Card=" + creditCard + "<br/>Rating=" + rating;
-//	}
-	public String getAccountNo() {
+	public int getAccountNo() {
 		return accountNo;
 	}
-	public void setAccountNo(String accountNo) {
+	public void setAccountNo(int accountNo) {
 		this.accountNo = accountNo;
 	}
 	

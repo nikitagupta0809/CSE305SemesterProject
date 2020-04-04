@@ -3,11 +3,12 @@ package model;
 public class Auctions {
 	private int AccountNo; 
 	private String AirlineID; 
-	private String FlightNo; 
+	private int FlightNo; 
 	private String SeatClass; 
 	private String Date; 
 	private double NYOP; 
 	private Boolean Accepted;
+
 	public int getAccountNo() {
 		return AccountNo;
 	}
@@ -20,10 +21,10 @@ public class Auctions {
 	public void setAirlineID(String airlineID) {
 		AirlineID = airlineID;
 	}
-	public String getFlightNo() {
+	public int getFlightNo() {
 		return FlightNo;
 	}
-	public void setFlightNo(String flightNo) {
+	public void setFlightNo(int flightNo) {
 		FlightNo = flightNo;
 	}
 	public String getSeatClass() {

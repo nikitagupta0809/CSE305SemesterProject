@@ -43,8 +43,7 @@ public class UpdateCustomerController extends HttpServlet {
 		String city = request.getParameter("customerCity");
 		String state= request.getParameter("customerState");
 		int zipcode = Integer.parseInt(request.getParameter("customerZipcode"));
-//		String telephone = request.getParameter("customerTelephone");
-		String accountNo = request.getParameter("accountNo");
+		int accountNo = Integer.parseInt(request.getParameter("accountNo"));
 		String creditCard = request.getParameter("customerCreditCard");
 		int rating = Integer.parseInt(request.getParameter("customerRating"));
 		
@@ -56,7 +55,6 @@ public class UpdateCustomerController extends HttpServlet {
 		customer.setCity(city);
 		customer.setState(state);
 		customer.setZipCode(zipcode);
-//		customer.setTelephone(telephone);
 		customer.setAccountNo(accountNo);
 		customer.setCreditCard(creditCard);
 		customer.setRating(rating);

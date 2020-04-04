@@ -5,7 +5,7 @@ public class SalesReport {
 	private String ResrDate;
 	private double TotalFare;
 	private double BookingFee;
-	private int RepSSN;
+	private String RepSSN;
 	private String FirstName;
 	private String LastName;
 	public int getResrNo() {
@@ -32,10 +32,10 @@ public class SalesReport {
 	public void setBookingFee(double bookingFee) {
 		BookingFee = bookingFee;
 	}
-	public int getRepSSN() {
+	public String getRepSSN() {
 		return RepSSN;
 	}
-	public void setRepSSN(int repSSN) {
+	public void setRepSSN(String repSSN) {
 		RepSSN = repSSN;
 	}
 	public String getFirstName() {

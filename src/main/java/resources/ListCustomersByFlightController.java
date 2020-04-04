@@ -41,7 +41,7 @@ public class ListCustomersByFlightController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String flightNum = request.getParameter("flightNum");
+		int flightNum = Integer.parseInt((String)request.getParameter("flightNum"));
 		String airlineID = request.getParameter("airlineID");
 		FlightReservationsDao passDao = new FlightReservationsDao();
 		List<FlightReservations> passengers = new ArrayList<FlightReservations>();

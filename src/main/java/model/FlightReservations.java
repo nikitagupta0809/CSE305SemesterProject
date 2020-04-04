@@ -8,7 +8,6 @@ public class FlightReservations {
 	private String RepSSN;
 	private String FirstName;
 	private String LastName;
-	private int AccountNum;
 	private double Revenue;
 	private int PassengerID;
 	private int AccountNo;
@@ -54,12 +53,6 @@ public class FlightReservations {
 	}
 	public void setLastName(String lastName) {
 		LastName = lastName;
-	}
-	public int getAccountNum() {
-		return AccountNum;
-	}
-	public void setAccountNum(int accountNum) {
-		AccountNum = accountNum;
 	}
 	public double getRevenue() {
 		return Revenue;

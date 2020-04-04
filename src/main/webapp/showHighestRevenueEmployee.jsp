@@ -39,7 +39,7 @@
 		  </thead>
 		  <tbody>
 		       <tr>
-		         <td>${employee.getEmployeeID()}</td>
+		         <td>${employee.getSSN()}</td>
 		       </tr>
 		  </tbody>
 		</table>

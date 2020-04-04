@@ -40,9 +40,9 @@ public class GetReverseAuctionsController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		int AccountNo = Integer.parseInt((String)request.getSession(false).getAttribute("customerID"));; 
+		int AccountNo = Integer.parseInt((String)request.getSession(false).getAttribute("customerID")); 
 		String AirlineID = request.getParameter("airlineID"); 
-		String FlightNo = request.getParameter("flightNo"); 
+		int FlightNo = Integer.parseInt((String)request.getParameter("flightNo")); 
 		String SeatClass = request.getParameter("seatClass"); 
 		
 		AuctionsDao aucDao = new AuctionsDao();

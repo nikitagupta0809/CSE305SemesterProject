@@ -7,34 +7,18 @@ public class Employee {
 	 * Each instance variable has a corresponding getter and setter
 	 */
 
-	private String employeeID;
-	private String telephone;
-	private String revenue;
-	private String level;
-	private String startDate; // in new as well
-	private float hourlyRate; // in new as well
-	private String firstName; // in new as well
-	private String lastName; // in new as well
-	private String address; // in new as well
-	private String city; // in new as well
-	private String state; // in new as well
-	private int zipCode; // in new as well
-	private String email; // keep
+	private String startDate; 
+	private float hourlyRate; 
+	private String firstName; 
+	private String lastName; 
+	private String address; 
+	private String city; 
+	private String state; 
+	private int zipCode; 
+	private String email; 
 	private String SSN;
 	private Boolean isManager;
 	
-	public String getRevenue() {
-		return revenue;
-	}
-	public void setRevenue(String revenue) {
-		this.revenue = revenue;
-	}
-	public String getEmployeeID() {
-		return employeeID;
-	}
-	public void setEmployeeID(String employeeID) {
-		this.employeeID = employeeID;
-	}
 	public String getStartDate() {
 		return startDate;
 	}
@@ -46,12 +30,6 @@ public class Employee {
 	}
 	public void setHourlyRate(float hourlyRate) {
 		this.hourlyRate = hourlyRate;
-	}
-	public String getLevel() {
-		return level;
-	}
-	public void setLevel(String level) {
-		this.level = level;
 	}
 	public String getFirstName() {
 		return firstName;
@@ -94,12 +72,6 @@ public class Employee {
 	}
 	public void setEmail(String email) {
 		this.email = email;
-	}
-	public String getTelephone() {
-		return telephone;
-	}
-	public void setTelephone(String telephone) {
-		this.telephone = telephone;
 	}
 	public Boolean getIsManager() {
 		return isManager;

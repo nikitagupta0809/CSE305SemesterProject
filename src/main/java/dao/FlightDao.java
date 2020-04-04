@@ -8,7 +8,8 @@ import model.Flight;
 public class FlightDao {
 	
 	public List<Flight> getAllFlights() {
-		
+		/* Get list of all flights, code goes here
+		 */
 		List<Flight> flights = new ArrayList<Flight>();
 		
 		for (int i = 0; i < 5; i++) {

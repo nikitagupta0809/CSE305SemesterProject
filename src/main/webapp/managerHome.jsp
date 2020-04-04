@@ -22,8 +22,6 @@
 		<h1>Welcome to the Online Travel Reservation System!</h1>
 		
 		<br>
-		<br>
-		<br>
 		<div class="container">
 			<h2>Manager Options:</h2>
 			<%
@@ -63,24 +61,6 @@
 					  </div>
 					</div>
 				</div>
-				<!-- 
-				<div class="col">
-					<div class="card">
-					  <div class="card-body">
-					    <h5 class="card-title">Manage Movie</h5>
-    					<div class="container">
-							<form action="addMovie.jsp">
-								<input type="submit" value="Add Employee" class="btn btn-primary"/>
-							</form>
-							<form action="getEditMovies" class="pt-1">
-								<input type="submit" value="View / Edit / Delete Movie" class="btn btn-primary"/>
-							</form>
-							
-						</div>
-					  </div>
-					</div>
-				</div> 
-				-->
 				<div class="col">
 					<div class="card">
 					  <div class="card-body">
@@ -153,30 +133,6 @@
 					  </div>
 					</div>
 				</div>
-<!-- 				<div class="col">
-					<div class="card">
-					  <div class="card-body">
-					    <h5 class="card-title">View Sales</h5>
-    					<div class="container">
-							<form action="searchSales.jsp">
-								<input type="submit" value="View Sales" class="btn btn-success"/>
-							</form>
-						</div>
-					  </div>
-					</div>
-				</div> -->
-	<!-- 			<div class="col">
-					<div class="card">
-					  <div class="card-body">
-					    <h5 class="card-title">View Revenue Summary</h5>
-    					<div class="container">
-							<form action="searchSummaryListing.jsp">
-								<input type="submit" value="View Revenue Summary" class="btn btn-primary"/>
-							</form>
-						</div>
-					  </div>
-					</div>
-				</div> -->
 				<div class="col">
 					<div class="card">
 					  <div class="card-body">

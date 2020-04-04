@@ -60,8 +60,8 @@ public class LoginController extends HttpServlet {
 			}
 			else {
 				CustomerDao customerDao = new CustomerDao();
-				String accountNo = customerDao.getCustomerID(username);
-				request.getSession(true).setAttribute("customerID", accountNo);
+				int accountNo = customerDao.getCustomerID(username);
+				request.getSession(true).setAttribute("customerID", Integer.toString(accountNo));
 				response.sendRedirect("home.jsp");	
 			}
 

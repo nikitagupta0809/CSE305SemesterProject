@@ -34,6 +34,8 @@
 							<form method="POST" action="searchRevenueSummary">
 								<label for="flightNum">Flight Number:</label>
 	    						<input type="text" class="form-control" id="flightNum" name="flightNum" placeholder="Type Flight Number or a Part of it"><br>
+								<label for="airlineID">Airline ID:</label>
+	    						<input type="text" class="form-control" id="airlineID" name="airlineID" placeholder="Type Airline ID"><br><br>					
 								<input type="submit" value="Search" class="btn btn-primary"/>
 							</form>
 						</div>

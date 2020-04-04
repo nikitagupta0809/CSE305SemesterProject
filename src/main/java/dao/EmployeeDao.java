@@ -77,7 +77,6 @@ public class EmployeeDao {
 			employee.setStartDate("2006-10-17");
 			employee.setState("NY");
 			employee.setZipCode(11790);
-			employee.setTelephone("5166328959");
 			employee.setSSN("6314135555");
 			employee.setHourlyRate(100);
 			employee.setIsManager(true);
@@ -127,7 +126,7 @@ public class EmployeeDao {
 		
 		/*Sample data begins*/
 		// EmployeeID = SSN
-		employee.setEmployeeID("631-413-5555");
+		employee.setSSN("6314135555");
 		/*Sample data ends*/
 		
 		return employee;

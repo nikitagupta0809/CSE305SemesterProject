@@ -5,9 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Customer;
-import model.Customer;
 
-import java.util.stream.IntStream;
 
 public class CustomerDao {
 	/*
@@ -33,7 +31,7 @@ public class CustomerDao {
 		/*Sample data begins*/
 		for (int i = 0; i < 10; i++) {
 			Customer customer = new Customer();
-			customer.setAccountNo("111");
+			customer.setAccountNo(111);
 			customer.setAddress("123 Success Street");
 			customer.setLastName("Lu");
 			customer.setFirstName("Shiyong");
@@ -64,7 +62,7 @@ public class CustomerDao {
 		
 		Customer customer = new Customer();
 		// Customer ID = Account Number
-		customer.setCustomerID("111-11-1111");
+		customer.setAccountNo(111);
 		customer.setLastName("Lu");
 		customer.setFirstName("Shiyong");
 		/*Sample data ends*/
@@ -101,7 +99,7 @@ public class CustomerDao {
 		return customers;
 	}
 
-	public Customer getCustomer(String accountNo) {
+	public Customer getCustomer(int accountNo) {
 
 		/*
 		 * This method fetches the customer details and returns it
@@ -112,7 +110,7 @@ public class CustomerDao {
 		
 		/*Sample data begins*/
 		Customer customer = new Customer();
-		customer.setAccountNo("111");
+		customer.setAccountNo(111);
 		customer.setAddress("123 Success Street");
 		customer.setLastName("Lu");
 		customer.setFirstName("Shiyong");
@@ -120,7 +118,6 @@ public class CustomerDao {
 		customer.setState("NY");
 		customer.setEmail("shiyong@cs.sunysb.edu");
 		customer.setZipCode(11790);
-//		customer.setTelephone("5166328959");
 		customer.setCreditCard("1234567812345678");
 		customer.setRating(1);
 		/*Sample data ends*/
@@ -128,7 +125,7 @@ public class CustomerDao {
 		return customer;
 	}
 	
-	public String deleteCustomer(String accountNo) {
+	public String deleteCustomer(int accountNo) {
 
 		/*
 		 * This method deletes a customer returns "success" string on success, else returns "failure"
@@ -143,7 +140,7 @@ public class CustomerDao {
 	}
 
 
-	public String getCustomerID(String emailaddress) {
+	public int getCustomerID(String emailaddress) {
 		/*
 		 * This method returns the Customer's ID based on the provided email address
 		 * The students code to fetch data from the database will be written here
@@ -151,37 +148,7 @@ public class CustomerDao {
 		 * The Customer's ID(accountNo) is required to be returned as a String
 		 */
 
-		return "111";
-	}
-
-
-	public List<Customer> getSellers() {
-		
-		/*
-		 * This method fetches the all seller details and returns it
-		 * The students code to fetch data from the database will be written here
-		 * The seller (which is a customer) record is required to be encapsulated as a "Customer" class object and added to the "customers" List
-		 */
-
-		List<Customer> customers = new ArrayList<Customer>();
-		
-		/*Sample data begins*/
-		for (int i = 0; i < 10; i++) {
-			Customer customer = new Customer();
-			customer.setCustomerID("111-11-1111");
-			customer.setAddress("123 Success Street");
-			customer.setLastName("Lu");
-			customer.setFirstName("Shiyong");
-			customer.setCity("Stony Brook");
-			customer.setState("NY");
-			customer.setEmail("shiyong@cs.sunysb.edu");
-			customer.setZipCode(11790);
-			customers.add(customer);			
-		}
-		/*Sample data ends*/
-		
-		return customers;
-
+		return 111;
 	}
 
 

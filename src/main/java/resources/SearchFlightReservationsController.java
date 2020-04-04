@@ -40,18 +40,20 @@ public class SearchFlightReservationsController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String flightNum = "";
+		int flightNum = 0;
 		String customerName = "";
+		String airlineID = "";
 		FlightReservationsDao resDao = new FlightReservationsDao();
-        if (request.getParameterMap().containsKey("flightNum")) {
-            flightNum = request.getParameter("flightNum");   
+        if (request.getParameterMap().containsKey("flightNum") && request.getParameterMap().containsKey("airlineID")) {
+            flightNum = Integer.parseInt((String)request.getParameter("flightNum"));   
+            airlineID = request.getParameter("airlineID");
         }
         // Check if password parameter exists
         else if (request.getParameterMap().containsKey("customerName")) {
             customerName = request.getParameter("customerName");
         }
         
-        List<FlightReservations> reservations = resDao.getReservations(flightNum, customerName);
+        List<FlightReservations> reservations = resDao.getReservations(flightNum,airlineID, customerName);
         
 		request.setAttribute("reservations", reservations);
 		

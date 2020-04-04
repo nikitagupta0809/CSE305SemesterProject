@@ -7,12 +7,12 @@ import model.FlightReservations;
 
 public class FlightReservationsDao {
 	
-	public List<FlightReservations> getReservations(String FlightNum, String CustomerName) {
+	public List<FlightReservations> getReservations(int FlightNum, String airlineID, String CustomerName) {
 		
 		/*
 		 * The students code to fetch data from the database will be written here
 		 * Query to get flight reservations based on FlightNum OR CustomerName passed
-		 * Only one of the two strings will be set, either FlightNum = "" or CustomerName = "" depending on query
+		 * Only one of the two strings will be set, either (FlightNum = 0 and airlineID="") or CustomerName = "" depending on query
 		 */
 		
 		List<FlightReservations> reservations = new ArrayList<FlightReservations>();
@@ -38,12 +38,12 @@ public class FlightReservationsDao {
 		
 	}
 	
-	public List<FlightReservations> getRevenueSummary(String FlightNum, String CustomerName,String destCity) {
+	public List<FlightReservations> getRevenueSummary(int FlightNum, String airlineID, String CustomerName,String destCity) {
 		
 		/*
 		 * The students code to fetch data from the database will be written here
 		 * Query to get flight reservations based on FlightNum OR CustomerName passed
-		 * Only one of the two strings will be set, either FlightNum = "" or CustomerName = ""  
+		 * Only one of the two strings will be set, either (FlightNum = 0 and airlineID = "") or CustomerName = ""  
 		 * or destCity = "" depending on query
 		 */
 		
@@ -66,7 +66,7 @@ public class FlightReservationsDao {
 	}
 	
 	
-	public List<FlightReservations> getPassengerList(String FlightNum, String AirlineID) {
+	public List<FlightReservations> getPassengerList(int FlightNum, String AirlineID) {
 		
 		/*
 		 * The students code to fetch data from the database will be written here
