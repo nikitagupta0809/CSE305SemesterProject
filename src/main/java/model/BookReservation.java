@@ -2,6 +2,8 @@ package model;
 
 public class BookReservation {
 	private String AirlineID;
+	private int FlightNum1;
+	private int FlightNum2;
 	private String DepartureAirport;
 	private String ArrivalAirport;
 	private String DepartureDate;
@@ -31,6 +33,22 @@ public class BookReservation {
 
 	public void setAirlineID(String airlineID) {
 		AirlineID = airlineID;
+	}
+	
+	public int getFlightNum1() {
+		return FlightNum1;
+	}
+	
+	public void setFlightNum1(int flightNum1) {
+		FlightNum1 = flightNum1;
+	}
+
+	public int getFlightNum2() {
+		return FlightNum2;
+	}
+
+	public void setFlightNum2(int flightNum2) {
+		FlightNum2 = flightNum2;
 	}
 
 	public String getDepartureAirport() {

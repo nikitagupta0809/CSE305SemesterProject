@@ -38,6 +38,7 @@ public class BookFlightReservationsCustomerController extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		String airlineID = request.getParameter("airlineID");
+		int flightNum1 = Integer.parseInt(request.getParameter("flightNum1"));
 		String departureAirport = request.getParameter("departureAirport");
 		String arrivalAirport = request.getParameter("arrivalAirport");
 		String departureDate = request.getParameter("departureDate");
@@ -47,18 +48,23 @@ public class BookFlightReservationsCustomerController extends HttpServlet {
 		String mealPref = request.getParameter("mealPref");
 		String passEmail = request.getParameter("passEmail");
 		Boolean flexibleDate = request.getParameter("flexibleDate")!=null?true:false;
-//		String typeOfFlight = request.getParameter("typeOfFlight");
 		String typeOfTrip = request.getParameter("typeOfTrip");
 		String repSSN = "";
+		int flightNum2 = 0;
 		Boolean isEmployee = false;
 		
 		if(request.getSession(false).getAttribute("employeeID") != null) {
 			isEmployee = true;
 			repSSN = (String)request.getSession(false).getAttribute("employeeID");
 		}
+		if(typeOfTrip.equals("roundtrip")) {
+			flightNum2 = Integer.parseInt(request.getParameter("flightNum2"));
+		}
 		
 		BookReservation bookRes = new BookReservation();
 		bookRes.setAirlineID(airlineID);
+		bookRes.setFlightNum1(flightNum1);
+		bookRes.setFlightNum2(flightNum2);
 		bookRes.setDepartureAirport(departureAirport);
 		bookRes.setArrivalAirport(arrivalAirport);
 		bookRes.setDepartureDate(departureDate);

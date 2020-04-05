@@ -37,6 +37,8 @@ public class BookFlightReservationsMultiCityCustomerController extends HttpServl
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String airlineID = request.getParameter("airlineID");
+		int flightNum1 = Integer.parseInt(request.getParameter("flightNum1"));
+		int flightNum2 = Integer.parseInt(request.getParameter("flightNum2"));
 		String departureAirport1 = request.getParameter("departureAirport1");
 		String departureAirport2 = request.getParameter("departureAirport2");
 		String arrivalAirport1 = request.getParameter("arrivalAirport1");
@@ -50,6 +52,7 @@ public class BookFlightReservationsMultiCityCustomerController extends HttpServl
 		Boolean flexibleDate = request.getParameter("flexibleDate")!=null?true:false;
 //		String typeOfFlight = request.getParameter("typeOfFlight");
 		String repSSN = "";
+		
 		Boolean isEmployee = false;
 		
 		if(request.getSession(false).getAttribute("employeeID") != null) {
@@ -59,6 +62,8 @@ public class BookFlightReservationsMultiCityCustomerController extends HttpServl
 		
 		BookReservation bookRes = new BookReservation();
 		bookRes.setAirlineID(airlineID);
+		bookRes.setFlightNum1(flightNum1);
+		bookRes.setFlightNum2(flightNum2);
 		bookRes.setDepartureAirport1(departureAirport1);
 		bookRes.setDepartureAirport2(departureAirport2);
 		bookRes.setArrivalAirport1(arrivalAirport1);

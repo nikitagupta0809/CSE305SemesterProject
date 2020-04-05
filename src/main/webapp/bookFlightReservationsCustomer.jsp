@@ -42,6 +42,10 @@
 	    						<input type="text" class="form-control" id="departureDate" name="departureDate" placeholder="Type Departure Date MM/DD/YYYY"><br>
 		    		    		<label for="returnDate">Returning On</label>
 	    						<input type="text" class="form-control" id="returnDate" name="returnDate" placeholder="Type Returning Date MM/DD/YYYY"><br>
+		    		    		<label for="flightNum1">Departure Flight No</label>
+	    						<input type="text" class="form-control" id="flightNum1" name="flightNum1" placeholder="Type Departure Flight No, Ex 100"><br>
+		    		    		<label for="flightNum2">Returning Flight No</label>
+	    						<input type="text" class="form-control" id="flightNum2" name="flightNum2" placeholder="Type Returning Flight No(only if round trip), Ex 101"><br>   		    		
 		    		    		<label for="seatNum">Seat Number</label>
 	    						<input type="text" class="form-control" id="seatNum" name="seatNum" placeholder="Type Seat Number, example 10B"><br>
 		    		    		<label for="seatClass">Class</label>
@@ -83,12 +87,16 @@
 	    						<input type="text" class="form-control" id="arrivalAirport1" name="arrivalAirport1" placeholder="Type Arrival Airport 1, example SFO"><br>
 	    		    			<label for="trip1Date">Trip 1 Date</label>
 	    						<input type="text" class="form-control" id="trip1Date" name="trip1Date" placeholder="Type Trip Date 1 MM/DD/YYYY"><br>
+	    						<label for="flightNum1">Trip 1 Flight No</label>
+	    						<input type="text" class="form-control" id="flightNum1" name="flightNum1" placeholder="Type Trip 1 Flight No, Ex 100"><br>					
 	    						<label for="departureAirport2">Departure Airport 2</label>
 	    						<input type="text" class="form-control" id="departureAirport2" name="departureAirport2" placeholder="Type Departure Airport 2, example JFK"><br>
 	    		    			<label for="arrivalAirport2">Arrival Airport 2</label>
 	    						<input type="text" class="form-control" id="arrivalAirport2" name="arrivalAirport2" placeholder="Type Arrival Airport 2, example SFO"><br>
 	    		    			<label for="trip2Date">Trip 2 Date</label>
 	    						<input type="text" class="form-control" id="trip2Date" name="trip2Date" placeholder="Type Trip Date 2 MM/DD/YYYY"><br>
+		    		    		<label for="flightNum2">Trip 2 Flight No</label>
+	    						<input type="text" class="form-control" id="flightNum2" name="flightNum2" placeholder="Type Trip 2 Flight No, Ex 101"><br>   		    		
 		    		    		<label for="seatNum">Seat Number</label>
 	    						<input type="text" class="form-control" id="seatNum" name="seatNum" placeholder="Type Seat Number, example 10B"><br>
 		    		    		<label for="seatClass">Class</label>
